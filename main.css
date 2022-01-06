@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Island Moments", cursive;
+}
+body {
+  overflow: hidden;
+}
+div#userMessage {
+  background-color: #b13cfa;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  text-align: center;
+  padding: 50px;
+}
+div#userMessage > * {
+  margin: 10px;
+  font-size: 35px;
+}
+
+div#userMessage > #btn-start {
+  padding: 5px 25px;
+  color: purple;
+  border-radius: 50%;
+  border: none;
+  transition: box-shadow 0.3s;
+}
+div#userMessage > #btn-start:hover {
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+.display {
+  display: none;
+}
+.cursor {
+  cursor: url("./pencil.ico"), default;
+}
